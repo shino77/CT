@@ -26,15 +26,15 @@ var quizJSON = {
             "incorrect": "<p><span>Uhh no.</span> Not even close xD</p>" // no comma here
         },
         { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
-            "q": "And he with the money do the escape by?",
+            "q": "How do you think the criminals escaped?",
             "a": [
                 {"option": "Car",               "correct": false},
                 {"option": "Bicycles",   "correct": true},
-                {"option": "running",               "correct": false},
+                {"option": "Running",               "correct": false},
                 //{"option": "Eggs, fruit, toast, and milk", "correct": true} // no comma here
             ],
             "select_any": true,
-            "correct": "<p><span>Nice!</span> Your intuition is probably doing alright.</p>",
+            "correct": "<p><span>O Wow</span> Someone's Intuitive!!</p>",
             "incorrect": "<p><span>Hmmm.</span> You might want to reconsider your options.</p>" // no comma here
         },
         
@@ -44,10 +44,10 @@ var quizJSON = {
             "a": [
                 {"option": "Ontario",    "correct": false},
                 {"option": "Quebec",     "correct": false},
-                {"option": "Moon",     "correct": false} // no comma here
+                {"option": "The Moon",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Good Job!</span> You must be very observant!</p>",
-            "incorrect": "<p><span>WELLLL!</span> He's still totally on the loose! Thanks for playing, We will post a new Quiz very soon!</p>" // no comma here
+            "incorrect": "<p><span>WELLLL!</span> He's still totally on the loose! <br/> Thanks for playing, We will post a new Quiz very soon!</p>" // no comma here
         } // no comma here
     ]
 };
